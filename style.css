@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  border: 1px solid red;
+  .header {
+    text-align: center;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 40px;
+    line-height: 50px;
+    border: 10px;
+  }
+  .nav-link {
+    transition: .3s;
+  }
+  .section-item a {
+    color: #131413;
+    text-decoration: none;  
+    transition: color 1s;
+  }
+  .section-item a:hover {
+    color: #e21313;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    stroke-width: 5px;
+  }
+  
+  .section {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0e0c0c;
+  }
+  .name {
+    color: grey;
+  }
+ .header {background-color: rgb(6, 124, 179);
+    padding: 10px;}
+    a 
+    {color: aliceblue;
+    }
+    a :visited
+    {color: rgb(0, 0, 0);
+    }
+    .footer {background-color: rgb(6, 124, 179);
+        padding: 40px;}
+        ./git { width: 30px;
+            height: 30px;
+            background-image: url(./assets/github_PNG83.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+        }
+.ul {
+        font-style: italic;
+    }
